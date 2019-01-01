@@ -26,6 +26,21 @@
   </div>
 </template>
 
+<script>
+export default {
+  mounted()
+  {
+    const splash = document.getElementById('splash');
+    splash.className = 'splash';
+    setTimeout(
+      () => splash.remove(),
+      500 // this is the length of your transition
+    ); 
+  }
+}
+</script>
+
+
 <style>
 @import url('./css/font.css');
 @import url('./css/reset.css');

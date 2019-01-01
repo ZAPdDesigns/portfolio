@@ -29,6 +29,22 @@ html, body {
     background-color: #000;
 }
 
+.splash {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+
+.splash.on {
+    opacity: 1;
+}
+
 .app {
     max-width: 1310px;
     margin: 0 auto;
