@@ -30,12 +30,15 @@
 export default {
   mounted()
   {
-    const splash = document.getElementById('splash');
-    splash.className = 'splash';
-    setTimeout(
-      () => splash.remove(),
-      500 // this is the length of your transition
-    ); 
+    window.onload = () =>
+    {
+      const splash = document.getElementById('splash');
+      splash.className = 'splash';
+      setTimeout(
+        () => splash.remove(),
+        500 // this is the length of your transition
+      );
+    }
   }
 }
 </script>
