@@ -1,31 +1,46 @@
 <template>
-  <div id="app">
-    <div id="nav">
+  <div id="app" class="app">
+    <div class="header">
+      <router-link to="/"><img src="@/assets/logo.svg" alt="W" class="logo"></router-link>
+      <div class="nav">
+        <router-link to="/" class="nav-item">Work</router-link>
+        <router-link to="/about" class="nav-item">About</router-link>
+      </div>
+    </div>
+    <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
+    </div> -->
+    <transition name="fade" mode="out-in">
+      <router-view/>
+    </transition>
+
+    <div class="footer">
+      <div class="socials">
+        <a href="https://facebook.com/designbywillj" target="_blank"><h3>Facebook.</h3></a>
+        <a href="https://instagram.com/designbywillj" target="_blank"><h3>Instagram.</h3></a>
+        <a href="https://twitter.com/designbywillj" target="_blank"><h3>Twitter.</h3></a>
+      </div>
+      <h3>Will Johnson &#169; 2019</h3>
     </div>
-    <router-view/>
   </div>
 </template>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-#nav {
-  padding: 30px;
+@import url('./css/font.css');
+@import url('./css/reset.css');
+@import url('./css/header.css');
+@import url('./css/footer.css');
+@import url('./css/about.css');
+@import url('./css/casestudy.css');
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity .4s ease-in-out;
 }
 
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
 }
 </style>
