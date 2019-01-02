@@ -29,6 +29,18 @@ html, body {
     background-color: #000;
 }
 
+@keyframes fade-up {
+    0% {
+        opacity: 0;
+        transform: translateY(-120px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
 .splash {
     position: fixed;
     top: 0;
@@ -86,6 +98,11 @@ p {
     padding: 20% 0;
     display: flex;
     align-items: center;
+    opacity: 1;
+    transform: translateY(0px);
+    animation-name: fade-up;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0,.5,0,1);
 }
 
 @media only screen and (min-width: 640px) {
