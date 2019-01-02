@@ -5,6 +5,7 @@
       <div class="nav">
         <router-link to="/" class="nav-item">Work</router-link>
         <router-link to="/about" class="nav-item">About</router-link>
+        <a href="mailto:hi@designbywillj.com" target="_blank" class="nav-item">Email</a>
       </div>
     </div>
     <!-- <div id="nav">
