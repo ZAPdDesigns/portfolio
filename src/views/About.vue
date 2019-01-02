@@ -3,8 +3,8 @@
     <div class="about">
       <div class="about-img"></div>
       <div class="about-text">
-        <h2>Hey, my name is Will.</h2>
-        <p>I am a visual designer with over 5 years of experience, developing brands and products for the digital world. Lorem ipsum dolor sit amet, consectetuer adiprat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper u. <br><br>Iliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue </p>
+        <h2>Hey, I'm Will.</h2>
+        <p>I'm from Central Kentucky, currently living in Nashville, Tennessee. I love working on various design projects, whether it be creating brands or designing sites and apps. I've been designing and playing with code since I was twelve. While I listen to a lot of music, I spend most of my time at my desk working on personal projects and other various projects.</p>
       </div>
     </div>
   </div>
