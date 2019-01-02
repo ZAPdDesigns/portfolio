@@ -20,7 +20,14 @@
 .nav-item {
     width: auto;
     height: auto;
-    margin: 0 0 0 30px;
-    font-size: 24px;
+    margin: 0 0 0 20px;
+    font-size: 20px;
     font-weight: 600;
+}
+
+@media only screen and (min-width: 640px) {
+    .nav-item {
+        margin: 0 0 0 30px;
+        font-size: 24px;
+    }
 }
