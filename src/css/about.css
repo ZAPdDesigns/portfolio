@@ -25,13 +25,13 @@
     .about {
         display: flex;
     }
-    
+
     .about-img {
         width: calc(33.33% - 40px);
         margin: 100px 80px 0 0;
         padding-top: calc(33.33% - 40px);
     }
-    
+
     .about-text {
         width: calc(66.66% - 40px);
         margin: 100px 0 0;

@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     height: auto;
-    margin: 140px 0 0;
+    margin: 80px 0 0;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -36,6 +36,9 @@
 }
 
 @media only screen and (min-width: 960px) {
+    .footer {
+        margin: 140px 0 0;
+    }
     .socials > a {
         margin: 0 20px 0 0;
     }
