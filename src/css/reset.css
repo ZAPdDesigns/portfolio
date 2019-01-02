@@ -65,19 +65,19 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 p {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .hero {
@@ -99,5 +99,18 @@ p {
 
     h1 {
         font-size: 64px;
+    }
+
+    h2 {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    h3 {
+        font-size: 24px;
+    }
+    
+    p {
+        font-size: 24px;
     }
 }
