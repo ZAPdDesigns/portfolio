@@ -6,11 +6,11 @@
 
     <div class="casestudies">
       <div class="casestudies-group">
-        <Casestudy></Casestudy>
-        <Casestudy></Casestudy>
-        <Casestudy></Casestudy>
-        <Casestudy></Casestudy>
-        <Casestudy></Casestudy>
+        <Casestudy title="Visuals by Impulse" category="Product design"></Casestudy>
+        <Casestudy title="Canvascope" category="Brand indentity, animation, product design"></Casestudy>
+        <Casestudy title="Elyumn" category="Brand identity, animation, product design"></Casestudy>
+        <Casestudy title="Stream Design Factory" category="UI/UX"></Casestudy>
+        <Casestudy title="Concur App" category="Brand identity"></Casestudy>
       </div>
     </div>
   </div>
