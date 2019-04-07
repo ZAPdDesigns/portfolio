@@ -17,8 +17,19 @@
 				<p class="p">I began gathering and researching the needs of Visuals by Impulse and determining what they need to take their company to the next level. For client work, the portal is the backbone of the entire process. It allows managers an team members to communicate with clients to come up with solutions for them. Designing a system for an app as large as the portal and eventually every future app developed by Visuals by Impulse was definitely a responsiblity I was prepared to take on.</p>
 			</div>
 			<div class="casestudy-section">
+				<img src="./1.jpg" class="img">
 				<h2 class="casestudy-section-title">Needs</h2>
 				<p class="p">Features needed by the team were communicated effectively to me, so I could design the best experience for the team as possible. These features that needed to be developed were graphs for revenue statistics on the dashboard, a project management system, an invoicing system, and a user management system.</p>
+			</div>
+			<div class="casestudy-section">
+				<img src="./2.jpg" class="img">
+				<h2 class="casestudy-section-title">Needs</h2>
+				<p class="p">Features needed by the team were communicated effectively to me, so I could design the best experience for the team as possible. These features that needed to be developed were graphs for revenue statistics on the dashboard, a project management system, an invoicing system, and a user management system.</p>
+			</div>
+			<div class="casestudy-section">
+				<h2 class="casestudy-section-title">Solution</h2>
+				<p class="p">After months of hard work, the portal is off the ground and currently in use by clients and the team. Updates are frequently being pushed to improve the app and introduce new features that are needed by the team to make their jobs easier.</p>
+				<p class="p">You can view the live version of the app <a href="https://portal.visualsbyimpulse.com" target="_blank" class="a">here</a>.</p>
 			</div>
 		</div>
 	</div>
@@ -30,10 +41,22 @@
 	margin: 0 0 20px;
 }
 
+.p > .a {
+	display: inline;
+	font-weight: 600;
+	font-size: 18px;
+}
+
 .img {
 	width: 100%;
 	height: auto;
 	margin: 60px 0;
+}
+
+@media only screen and (min-width: 640px) {
+	.p > .a {
+		font-size: 20px;
+	}
 }
 </style>
 
