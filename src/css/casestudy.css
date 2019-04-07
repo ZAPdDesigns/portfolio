@@ -26,6 +26,6 @@
 	}
 
 	.card:nth-child(n+3) {
-		grid-column-end: span 2;
+		grid-column-end: span 3;
 	}
 }

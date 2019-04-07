@@ -33,27 +33,20 @@ export default {
 				},
 				{
 					id: 2,
-					title: 'Canvascope',
-					category: 'Brand identity, animation, product design',
-					thumbnail: require('./casestudies/visuals-by-impulse/thumbnail.jpg'),
-					path: '/canvascope'
-				},
-				{
-					id: 3,
 					title: 'Elyumn',
 					category: 'Brand identity, animation',
 					thumbnail: require('./casestudies/elyumn/thumbnail.jpg'),
 					path: '/elyumn'
 				},
 				{
-					id: 4,
+					id: 3,
 					title: 'Stream Design Factory',
 					category: 'Product design',
 					thumbnail: require('./casestudies/stream-design-factory/thumbnail.jpg'),
 					path: '/stream-design-factory'
 				},
 				{
-					id: 5,
+					id: 4,
 					title: 'Concur App',
 					category: 'Brand identity, animation',
 					thumbnail: require('./casestudies/visuals-by-impulse/thumbnail.jpg'),
