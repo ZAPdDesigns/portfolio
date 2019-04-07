@@ -4,23 +4,21 @@
 		<h1>Developing brands and products for the digital world.</h1>
 	</div>
 
-	<div class="casestudies">
-		<div class="casestudies-group">
-			<Casestudy
-				v-for="casestudy in casestudies"
-				:key="casestudy.id"
-				:title="casestudy.title"
-				:category="casestudy.category"
-				:thumbnail="casestudy.thumbnail"
-				:path="casestudy.path"
-			/>
-		</div>
+	<div class="card-wrapper">
+		<Card
+			v-for="casestudy in casestudies"
+			:key="casestudy.id"
+			:title="casestudy.title"
+			:category="casestudy.category"
+			:thumbnail="casestudy.thumbnail"
+			:path="casestudy.path"
+		/>
 	</div>
 </div>
 </template>
 
 <script>
-import Casestudy from '@/components/Casestudy.vue'
+import Card from '@/components/Card.vue'
 
 export default {
 	data() {
@@ -30,35 +28,35 @@ export default {
 					id: 1,
 					title: 'Visuals by Impulse',
 					category: 'Product design',
-					thumbnail: 'vbi/thumbnail.png',
+					thumbnail: require('./casestudies/visuals-by-impulse/thumbnail.jpg'),
 					path: '/visuals-by-impulse'
 				},
 				{
 					id: 2,
 					title: 'Canvascope',
 					category: 'Brand identity, animation, product design',
-					thumbnail: '',
+					thumbnail: require('./casestudies/visuals-by-impulse/thumbnail.jpg'),
 					path: '/canvascope'
 				},
 				{
 					id: 3,
 					title: 'Elyumn',
-					category: 'Brand identity, animation, product design',
-					thumbnail: '',
+					category: 'Brand identity, animation',
+					thumbnail: require('./casestudies/elyumn/thumbnail.jpg'),
 					path: '/elyumn'
 				},
 				{
 					id: 4,
 					title: 'Stream Design Factory',
 					category: 'Product design',
-					thumbnail: '',
+					thumbnail: require('./casestudies/stream-design-factory/thumbnail.jpg'),
 					path: '/stream-design-factory'
 				},
 				{
 					id: 5,
 					title: 'Concur App',
 					category: 'Brand identity, animation',
-					thumbnail: '',
+					thumbnail: require('./casestudies/visuals-by-impulse/thumbnail.jpg'),
 					path: '/concur-app'
 				}
 			]
@@ -66,7 +64,7 @@ export default {
 	},
 	
 	components: {
-		Casestudy
+		Card
 	}
 }
 </script>
