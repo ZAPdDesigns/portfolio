@@ -1,3 +1,5 @@
 <template>
-	<div class="content">dsf</div>
+	<div class="content">
+		
+	</div>
 </template>

@@ -1,7 +1,8 @@
 .footer {
-	width: 100%;
+	max-width: 1310px;
 	height: auto;
-	margin: 100px 0 0;
+	margin: 100px auto 0;
+	padding: 0 30px 30px;
 	display: flex;
 	flex-direction: column;
 }
@@ -21,9 +22,14 @@
 	margin: 0;
 }
 
+@media only screen and (min-width: 640px) {
+	.footer {
+		padding: 0 60px 60px;
+	}
+}
+
 @media only screen and (min-width: 720px) {
 	.footer {
-		display: flex;
 		align-items: center;
 		justify-content: space-between;
 		flex-direction: row;
@@ -36,7 +42,7 @@
 
 @media only screen and (min-width: 960px) {
 	.footer {
-		margin: 140px 0 0;
+		margin: 140px auto 0;
 	}
 	.socials > a {
 		margin: 0 20px 0 0;

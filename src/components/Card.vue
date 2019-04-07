@@ -38,6 +38,14 @@ export default {
 	padding-top: 100%;
 	margin: 0 0 20px;
 	background-color: #1A1A1A;
+	transform: scale(1);
+	transition: transform .25s ease-in-out;
+}
+
+@media only screen and (min-width: 640px) {
+	.card:hover > .card-thumbnail {
+		transform: scale(1.015);
+	}
 }
 </style>
 

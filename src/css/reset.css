@@ -14,6 +14,7 @@ html, body, div, h1, h2, h3, p, img, a {
 
 	font-family: 'HK Grotesk';
 	font-weight: 400;
+	font-size: 18px;
 	text-decoration: none;
 
 	background-color: transparent;
@@ -57,9 +58,13 @@ html, body {
 }
 
 .app {
+	width: 100%;
+}
+
+.content {
 	max-width: 1310px;
 	margin: 0 auto;
-	padding: 30px;
+	padding: 40px 30px 0;
 }
 
 h1 {
@@ -79,7 +84,7 @@ h3 {
 }
 
 p {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 1.75;
 }
@@ -88,6 +93,7 @@ p {
 	max-width: 85%;
 	height: auto;
 	padding: 20% 0;
+	margin: -60px 0 0;
 	display: flex;
 	align-items: center;
 	/* opacity: 1;
@@ -98,12 +104,13 @@ p {
 }
 
 @media only screen and (min-width: 640px) {
-	.app {
-		padding: 60px;
+	.content {
+		padding: 60px 60px 0;
 	}
 
 	.hero {
 		max-width: 75%;
+		margin: -100px 0 0;
 	}
 
 	h1 {
@@ -120,6 +127,6 @@ p {
 	}
 	
 	p {
-		font-size: 24px;
+		font-size: 20px;
 	}
 }

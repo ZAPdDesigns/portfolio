@@ -61,5 +61,8 @@ routes: [
 	// which is lazy-loaded when the route is visited.
 	component: () => import(/* webpackChunkName: "about" */ './views/casestudies/concur-app/Casestudy.vue')
 	},
-]
+],
+scrollBehavior (to, from, savedPosition){
+	return { x: 0, y: 0 }
+}
 })
