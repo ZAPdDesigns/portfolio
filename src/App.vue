@@ -1,11 +1,13 @@
 <template>
 <div id="app" class="app">
 	<div class="header">
-		<router-link to="/"><img src="@/assets/logo.svg" alt="W" class="logo"></router-link>
-		<div class="nav">
-			<router-link to="/about" class="nav-item">About</router-link>
-			<a href="mailto:hi@designbywillj.com" target="_blank" class="nav-item">Contact</a>
-			<a href="https://drive.google.com/open?id=1MSItOhQLsdyca3GwFVlhzE-lQP3SPvGr" target="_blank" class="nav-item">Resume</a>
+		<div class="header-content">
+			<router-link to="/"><img src="@/assets/logo.svg" alt="W" class="logo"></router-link>
+			<div class="nav">
+				<router-link to="/about" class="nav-item">About</router-link>
+				<a href="mailto:hi@designbywillj.com" target="_blank" class="nav-item">Contact</a>
+				<a href="https://drive.google.com/open?id=1MSItOhQLsdyca3GwFVlhzE-lQP3SPvGr" target="_blank" class="nav-item">Resume</a>
+			</div>
 		</div>
 	</div>
 
