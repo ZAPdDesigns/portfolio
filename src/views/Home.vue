@@ -40,17 +40,17 @@ export default {
 				},
 				{
 					id: 3,
+					title: 'Concur App',
+					category: 'Brand identity, animation',
+					thumbnail: require('./casestudies/concur-app/thumbnail.jpg'),
+					path: '/concur-app'
+				},
+				{
+					id: 4,
 					title: 'Stream Design Factory',
 					category: 'Product design',
 					thumbnail: require('./casestudies/stream-design-factory/thumbnail.jpg'),
 					path: '/stream-design-factory'
-				},
-				{
-					id: 4,
-					title: 'Concur App',
-					category: 'Brand identity, animation',
-					thumbnail: require('./casestudies/visuals-by-impulse/thumbnail.jpg'),
-					path: '/concur-app'
 				}
 			]
 		}

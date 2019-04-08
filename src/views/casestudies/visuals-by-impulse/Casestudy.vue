@@ -23,10 +23,6 @@
 			</div>
 			<div class="casestudy-section">
 				<img src="./2.jpg" class="img">
-				<h2 class="casestudy-section-title">Needs</h2>
-				<p class="p">Features needed by the team were communicated effectively to me, so I could design the best experience for the team as possible. These features that needed to be developed were graphs for revenue statistics on the dashboard, a project management system, an invoicing system, and a user management system.</p>
-			</div>
-			<div class="casestudy-section">
 				<h2 class="casestudy-section-title">Solution</h2>
 				<p class="p">After months of hard work, the portal is off the ground and currently in use by clients and the team. Updates are frequently being pushed to improve the app and introduce new features that are needed by the team to make their jobs easier.</p>
 				<p class="p">You can view the live version of the app <a href="https://portal.visualsbyimpulse.com" target="_blank" class="a">here</a>.</p>
@@ -50,12 +46,18 @@
 .img {
 	width: 100%;
 	height: auto;
-	margin: 60px 0;
+	margin: 60px 0 40px;
 }
 
 @media only screen and (min-width: 640px) {
 	.p > .a {
 		font-size: 20px;
+	}
+
+	.img {
+		width: 100%;
+		height: auto;
+		margin: 80px 0 60px;
 	}
 }
 </style>
@@ -89,7 +91,7 @@
 }
 
 .casestudy-section-title {
-	margin: 0 0 20px;
+	margin: 0 0 10px;
 }
 
 @media only screen and (min-width: 640px) {
