@@ -1,11 +1,11 @@
 .casestudy > .content {
-	padding: 40px 40px 0;
+	padding: 20px 20px 0;
 }
 
 .casestudy-hero {
 	width: 100%;
 	height: 180px;
-	margin: 90px 0 0;
+	margin: 70px 0 0;
 	background-color: #1A1A1A;
 }
 
@@ -56,14 +56,14 @@
 	grid-column-end: span 6;
 }
 @media only screen and (min-width: 640px) {
-	.casestudy-hero {
-		height: 420px;
-		margin: 116px 0 0;
-		background-color: #1A1A1A;
+	.casestudy > .content {
+		padding: 30px 30px 0;
 	}
 
-	.casestudy-content {
-		margin: 40px 0 0;
+	.casestudy-hero {
+		height: 420px;
+		margin: 96px 0 0;
+		background-color: #1A1A1A;
 	}
 
 	.casestudy-title {
@@ -73,7 +73,7 @@
 	.casestudy-section {
 		width: 100%;
 		height: auto;
-		margin: 0 0 60px 0;
+		margin: 0 0 30px 0;
 	}
 	.p > .a {
 		font-size: 20px;
