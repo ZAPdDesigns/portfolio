@@ -1,5 +1,5 @@
 <template>
-<div>
+<div class="casestudy">
 	<div class="casestudy-hero" :style="{'background-image': 'url(' + require('./hero.jpg') + ')'}"></div>
 	<div class="content">
 		<div class="casestudy-title">Elyumn</div>
@@ -7,31 +7,29 @@
 
 		<div class="casestudy-content">
 			<div class="casestudy-section">
-				<h2 class="casestudy-section-title">Idea</h2>
-				<p class="p">Elyumn is an upcoming platform that allows creatives, such as designers, artists, photographers, videographer, and more, to create a portfolio site within minutes, at extremely low rates for hosting. </p>
-				<p class="p">More products from Visuals by Impulse are emerging, and managing projects that are connected and are produced by the same brand gets very hectic when there are no guidelines in place. I was asked to tackle on this project to create a cohesive design system that will be used through most of Visual by Impulse's digital products, like their new portal that allows the team to communicate with clients more effciently and effectively.</p>
-			</div>
-			<div class="casestudy-section">
-				<h2 class="casestudy-section-title">My Role</h2>
-				<p class="p">I was originally a motion designer for Visuals by Impulse. After a few months, they became aware that I have skills in UI/UX design and general product design. I was given the task to start designing the new upcoming product they are wanting to develop: the portal.</p>
-				<p class="p">I began gathering and researching the needs of Visuals by Impulse and determining what they need to take their company to the next level. For client work, the portal is the backbone of the entire process. It allows managers and team members to communicate with clients to come up with solutions for them. Designing a system for an app as large as the portal and eventually every future app developed by Visuals by Impulse was definitely a responsiblity I was prepared to take on.</p>
+				<h2 class="casestudy-section-title">What is Elyumn?</h2>
+				<p class="p">Elyumn is an upcoming platform that allows creatives, such as designers, artists, photographers, videographer, and more, to create a portfolio site and/or store within minutes, at extremely low rates for hosting.</p>
+				<p class="p"></p>
 			</div>
 			<div class="casestudy-section">
 				<img src="./1.jpg" class="img">
-				<h2 class="casestudy-section-title">Needs</h2>
-				<p class="p">Features needed by the team were communicated effectively to me, so I could design the best experience for the team as possible. These features that needed to be developed were graphs for revenue statistics on the dashboard, a project management system, an invoicing system, and a user management system.</p>
+				<h2 class="casestudy-section-title">Design Process</h2>
+				<p class="p">When starting this project, I wanted the brand to feel as if there is some excitement to it, while at the same time keeping the overall concept very simple and straight to the point. Since the platform offers users to host their work on their own site with Elyumn, we wanted the mark to represent items of the sort, like elements that make up a whole.</p>
+				<p class="p">I played with many concepts of the mark and many different variants and landed on a select few that fit the personality I am trying to invoke in the brand. I also explored some color variants that could also fit the personality I am trying to achieve. Not only did I want something that was exciting, I also wanted the brand to feel more playful and approachable for all people of all ages wanting to use the platform.</p>
 			</div>
 			<div class="casestudy-section">
 				<img src="./2.jpg" class="img">
-				<h2 class="casestudy-section-title">Solution</h2>
-				<p class="p">After months of hard work, the portal is off the ground and currently in use by clients and the team. Updates are frequently being pushed to improve the app and introduce new features that are needed by the team to make their jobs easier.</p>
-				<p class="p">You can view the live version of the app <a href="https://portal.visualsbyimpulse.com" target="_blank" class="a">here</a>.</p>
+				<h2 class="casestudy-section-title">Construction</h2>
+				<p class="p">Elyumn is an online platform targeted towards creatives wanting to have a place for their work to be shown off. Because of this, the  behind the structure of the mark is quite simple: professionalism is key. Having a very structured, grid-based mark allows for the view to see how the strategically placed circles represent how their own work will be displayed on their site through Elyumn.</p>
+			</div>
+			<div class="casestudy-section">
+				<h2 class="casestudy-section-title">Typography</h2>
+				<p class="p">Elyumn is a forward-thinking platform that wants to offer creatives a more accessible way to show their work professionally. The typeface Aileron fit quite well with the brand, as it expresses professionalism, simplicity, and a bit of playfulness to invoke more friendly tones. The chosen typeface too contributes to the logo's approachableness and plays elegantly with the mark</p>
 			</div>
 			<div class="casestudy-section">
 				<img src="./4.jpg" class="img">
-				<h2 class="casestudy-section-title">Solution</h2>
-				<p class="p">After months of hard work, the portal is off the ground and currently in use by clients and the team. Updates are frequently being pushed to improve the app and introduce new features that are needed by the team to make their jobs easier.</p>
-				<p class="p">You can view the live version of the app <a href="https://portal.visualsbyimpulse.com" target="_blank" class="a">here</a>.</p>
+				<h2 class="casestudy-section-title">Marketing</h2>
+				<p class="p">Currently, Elyumn is still in the works and will, in the future, have more marketing materials for their brand. One of the main taglines that is intriguing is "Give your work a place to live." Through this tagline, it represents what Elyumn is in a single, short statement. Through future marketing assets, the circle pattern will be featured and will incorporate artwork and designs of creators to express the potential someone has when using the platform for their own work.</p>
 			</div>
 		</div>
 	</div>
