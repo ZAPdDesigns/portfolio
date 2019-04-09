@@ -12,6 +12,7 @@
 				<p class="p">More products from Visuals by Impulse are emerging, and managing projects that are connected and are produced by the same brand gets very hectic when there are no guidelines in place. I was asked to tackle on this project to create a cohesive design system that will be used through most of Visual by Impulse's digital products, like their new portal that allows the team to communicate with clients more effciently and effectively.</p>
 			</div>
 			<div class="casestudy-section">
+				<img src="./3.jpg" class="img">
 				<h2 class="casestudy-section-title">My Role</h2>
 				<p class="p">I was originally a motion designer for Visuals by Impulse. After a few months, they became aware that I have skills in UI/UX design and general product design. I was given the task to start designing the new upcoming product they are wanting to develop: the portal.</p>
 				<p class="p">I began gathering and researching the needs of Visuals by Impulse and determining what they need to take their company to the next level. For client work, the portal is the backbone of the entire process. It allows managers and team members to communicate with clients to come up with solutions for them. Designing a system for an app as large as the portal and eventually every future app developed by Visuals by Impulse was definitely a responsiblity I was prepared to take on.</p>

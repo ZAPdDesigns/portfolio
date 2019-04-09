@@ -62,11 +62,11 @@ routes: [
 	component: () => import(/* webpackChunkName: "about" */ './views/casestudies/concur-app/Casestudy.vue')
 	},
 ],
-scrollBehavior (to, from, savedPosition) {
-	return new Promise((resolve, reject) => {
-	  setTimeout(() => {
+scrollBehavior () {
+	return new Promise((resolve) => {
+	setTimeout(() => {
 		resolve({ x: 0, y: 0 })
-	  }, 500)
+	}, 500)
 	})
-  }
+}
 })
