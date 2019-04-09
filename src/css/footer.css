@@ -10,12 +10,15 @@
 .socials {
 	width: auto;
 	height: auto;
-	margin: 0 0 5px;
 	display: flex;
 }
 
 .socials > a {
 	margin: 0 10px 0 0;
+}
+
+.socials > a > h3 {
+	font-weight: 600;
 }
 
 .socials > a:last-child {
@@ -24,7 +27,7 @@
 
 @media only screen and (min-width: 640px) {
 	.footer {
-		padding: 0 30px 60px;
+		padding: 0 30px 40px;
 	}
 }
 
@@ -33,10 +36,6 @@
 		align-items: center;
 		justify-content: space-between;
 		flex-direction: row;
-	}
-
-	.socials {
-		margin: 0;
 	}
 }
 
