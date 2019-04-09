@@ -23,7 +23,10 @@
 			</div>
 			<div class="casestudy-section">
 				<img src="./4.gif" class="img">
+<<<<<<< HEAD
 				<img src="./5.gif" class="img">
+=======
+>>>>>>> 20ce2835ed81cec019617c15b9b293bd53eb6581
 				<h2 class="casestudy-section-title">Solution</h2>
 				<p class="p">After months of hard work, the portal is off the ground and currently in use by clients and the team. Updates are frequently being pushed to improve the app and introduce new features that are needed by the team to make their jobs easier.</p>
 				<p class="p">You can view the live version of the app <a href="https://portal.visualsbyimpulse.com" target="_blank" class="a">here</a>.</p>
