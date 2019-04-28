@@ -1,7 +1,7 @@
 <template>
 <div class="content">
 	<div class="hero">
-		<h1>Developing brands and products for the digital world.</h1>
+		<h1>Hi, my name is Will. I develop brands and products for the digital world.</h1>
 	</div>
 
 	<div class="card-wrapper">
