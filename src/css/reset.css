@@ -12,7 +12,7 @@ html, body, div, h1, h2, h3, p, img, a {
 
 	appearance: none;
 
-	font-family: 'HK Grotesk';
+	font-family: Inter, Roboto, sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	text-decoration: none;
@@ -70,7 +70,7 @@ html, body {
 h1 {
 	font-size: 48px;
 	font-weight: 600;
-	line-height: 1.2;
+	line-height: 1.25;
 }
 
 h2 {

@@ -11,6 +11,7 @@
 	width: auto;
 	height: auto;
 	display: flex;
+	margin: 0 0 10px;
 }
 
 .socials > a {
@@ -36,6 +37,10 @@
 		align-items: center;
 		justify-content: space-between;
 		flex-direction: row;
+	}
+
+	.socials {
+		margin: 0;
 	}
 }
 

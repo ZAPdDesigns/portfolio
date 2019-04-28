@@ -1,17 +1,43 @@
-@font-face {
-    font-family: 'HK Grotesk';
-    src: url('../fonts/hkgrotesk-bold.otf') format('otf'),
-         url('../fonts/hkgrotesk-bold.woff2') format('woff2'),
-         url('../fonts/hkgrotesk-bold.woff') format('woff');
-    font-weight: 600;
-    font-style: normal;
+/* @font-face {
+	font-family: 'HK Grotesk';
+	src: url('../fonts/hkgrotesk-bold.otf') format('otf'),
+		url('../fonts/hkgrotesk-bold.woff2') format('woff2'),
+		url('../fonts/hkgrotesk-bold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'HK Grotesk';
-    src: url('../fonts/hkgrotesk-medium.otf') format('otf'),
-         url('../fonts/hkgrotesk-medium.woff2') format('woff2'),
-         url('../fonts/hkgrotesk-medium.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
+	font-family: 'HK Grotesk';
+	src: url('../fonts/hkgrotesk-medium.otf') format('otf'),
+		url('../fonts/hkgrotesk-medium.woff2') format('woff2'),
+		url('../fonts/hkgrotesk-medium.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+} */
+
+@font-face {
+	font-family: 'Inter';
+	font-style:  normal;
+	font-weight: 400;
+	src: url("../fonts/Inter-Regular.woff2") format("woff2"),
+		url("../fonts/Inter-Regular.woff") format("woff");
 }
+
+/* @font-face {
+	font-family: 'Inter';
+	font-style:  normal;
+	font-weight: 500;
+	src: url("../fonts/Inter-Medium.woff2") format("woff2"),
+		url("../fonts/Inter-Medium.woff") format("woff");
+} */
+
+@font-face {
+	font-family: 'Inter';
+	font-style:  normal;
+	font-weight: 600;
+	src: url("../fonts/Inter-SemiBold.woff2") format("woff2"),
+		url("../fonts/Inter-SemiBold.woff") format("woff");
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500');
