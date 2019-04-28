@@ -10,13 +10,15 @@
 }
 
 .casestudy-title {
+	max-width: 860px;
 	font-size: 28px;
 	font-weight: 600;
-	margin: 10px 0 0;
+	margin: 10px auto 0;
 }
 
 .casestudy-subtitle {
-	margin: 10px 0 0;
+	max-width: 860px;
+	margin: 10px auto 0;
 }
 
 .casestudy-content {
@@ -30,11 +32,13 @@
 }
 
 .casestudy-section-title {
-	margin: 0 0 10px;
+	max-width: 860px;
+	margin: 0 auto 30px;
 }
 
 .p {
-	margin: 0 0 20px;
+	max-width: 860px;
+	margin: 0 auto 20px;
 }
 
 .p > .a {
@@ -102,7 +106,7 @@
 	}
 
 	.img {
-		margin: 60px 0;
+		margin: 80px 0;
 	}
 }
 
