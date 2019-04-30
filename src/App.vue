@@ -30,14 +30,20 @@
 export default {
 	mounted()
 	{
-		window.onload = () =>
+		window.onload = this.handleLoad;
+	},
+
+	methods: {
+		handleLoad()
 		{
-		const splash = document.getElementById('splash');
-		splash.className = 'splash';
-		setTimeout(
-			() => splash.remove(),
-			500 // this is the length of your transition
-		);
+			const splash = document.getElementById('splash');
+			splash.className = 'splash';
+			setTimeout(this.removeSplash, 1000, splash);
+		},
+
+		removeSplash(splash)
+		{
+			splash.parentNode.removeChild(splash);
 		}
 	}
 }

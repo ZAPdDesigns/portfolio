@@ -25,11 +25,11 @@ export default {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	grid-column-gap: 40px;
-	grid-row-gap: 60px;
 }
 
 .card {
 	height: auto;
+	margin: 0 0 60px;
 }
 
 .card-thumbnail {
