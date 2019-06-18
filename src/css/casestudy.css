@@ -12,7 +12,7 @@
 .casestudy-title {
 	max-width: 860px;
 	font-size: 28px;
-	font-weight: 600;
+	font-weight: 500;
 	margin: 10px auto 0;
 }
 
@@ -43,7 +43,7 @@
 
 .p > .a {
 	display: inline;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 18px;
 }
 
