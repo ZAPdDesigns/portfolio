@@ -1,13 +1,43 @@
 <template>
 <router-link class="card" :to="path">
-	<div class="card-thumbnail" :style="{'background-image': 'url(' + thumbnail + ')'}"/>
-	<h2>{{ title }}</h2>
-	<h3>{{ category }}</h3>
+	<div @mousemove="tilt" @mouseleave="noTilt" :style="tiltOrientation">
+		<div class="card-thumbnail" :style="{'background-image': 'url(' + thumbnail + ')'}"/>
+		<h2>{{ title }}</h2>
+		<h3>{{ category }}</h3>
+	</div>
 </router-link>
 </template>
 
 <script>
 export default {
+	data() {
+		return {
+			tiltOrientation: ''
+		}
+	},
+
+	methods: {
+		tilt(e)
+		{
+			const range = 20;
+			const xMidpoint = e.target.offsetWidth / 2;
+			const yMidpoint = e.target.offsetHeight / 2;
+			const x = e.offsetX;
+			const y = e.offsetY;
+			const xDisplace = range * -((x - xMidpoint) / e.target.offsetWidth);
+			const yDisplace = range * ((y - yMidpoint) / e.target.offsetHeight);
+
+			this.tiltOrientation = 'transform: perspective(5000px) rotateX(' + yDisplace + 'deg) rotateY(' + xDisplace + 'deg) scale3d(1.01,1.01,1.01)';
+			// console.log(range * ((x - xMidpoint) / e.target.offsetWidth))
+			// console.log(range * ((y - yMidpoint) / e.target.offsetHeight))
+			// console.log(e)
+		},
+
+		noTilt() {
+			this.tiltOrientation = 'transform: perspective(5000px);';
+		}
+	},
+
 	props: [
 		"title",
 		"category",
@@ -31,6 +61,10 @@ export default {
 	height: auto;
 	margin: 0 0 60px;
 }
+.card > div {
+	will-change: transform;
+	transition: transform 3s cubic-bezier(0.03, 0.98, 0.52, 0.99) 0s;
+}
 
 .card-thumbnail {
 	width: 100%;
@@ -40,12 +74,6 @@ export default {
 	background-color: #1A1A1A;
 	transform: scale(1);
 	transition: transform .25s ease-in-out;
-}
-
-@media only screen and (min-width: 640px) {
-	.card:hover > .card-thumbnail {
-		transform: scale(1.015);
-	}
 }
 </style>
 
