@@ -2,7 +2,7 @@
 <router-link class="card" :to="path">
 	<div @mousemove="tilt" @mouseleave="noTilt" :style="tiltOrientation">
 		<div class="card-thumbnail" :style="{'background-image': 'url(' + thumbnail + ')'}"/>
-		<h2>{{ title }}</h2>
+		<h2 class="card-title">{{ title }}</h2>
 		<h3>{{ category }}</h3>
 	</div>
 </router-link>
@@ -75,5 +75,9 @@ export default {
 	transform: scale(1);
 	transition: transform .25s ease-in-out;
 }
+
+.card-title {
+	 margin: 0 0 4px;
+ }
 </style>
 
